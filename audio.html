@@ -1,0 +1,34 @@
+<html>
+<body>
+<img src="eminem1.jpg" width="250" height="150">
+<audio id="myAudio">
+  <source src="themonster.mp3" type="audio/ogg">
+</audio>
+<audio id ="myAudio1">
+<source src="notafraid.mp3" type = "audio/ogg">
+</audio>
+<p>Click the buttons to play or pause the audio.</p>
+
+<button onclick="playAudio()" type="button">monster</button>
+<button onclick ="nextAudio()" type="button">survival</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+<script>
+var x = document.getElementById("myAudio"); 
+var x1= document.getElementById("myAudio1");
+
+function playAudio() { 
+    x.play(); 
+} 
+function nextAudio(){
+x1.play();
+x2.play();
+}
+
+function pauseAudio() { 
+    x.pause(); 
+	x1.pause();
+	} 
+</script>
+
+</body>
+</html>
